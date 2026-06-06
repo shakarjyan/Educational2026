@@ -764,7 +764,7 @@ footer {
   body.dark .line { background-color: white; }
 
   .header__nav {
-    display: none; /* იმალება სანამ JS არ მისცემს კლასს .active */
+    display: none;
     flex-direction: column;
     gap: 20px;
     position: absolute;
@@ -822,7 +822,7 @@ footer {
     gap: 15px;
   }
   .theme-switch {
-    margin-left: 0 !important; /* ახალი */
+    margin-left: 0 !important;
   }
 
   .wrapper {
